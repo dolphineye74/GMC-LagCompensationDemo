@@ -12,10 +12,7 @@ When the server executes the move the player was executing when he fired, he can
 
 Using this technique is efficient, as when the server is playing a move, the other players' position will be automatically rewinded at the move's timestamp.
 
-However, when using the default settings of the GMC component, you might realize that past a certain distance between the player and target, the rewinding will no longer occur.
-This happens due to the `Server Pawn Rollback Radius` property (in the Advanced settings of the GMC) being too small.
-Hance, past the `Server Pawn Rollback Radius` value, the server won't rewind the potential targets.
-In this demo, we set the value of `Server Pawn Rollback Radius` to the `Biped`'s `Net Cull Distance`.
+However, when using the default settings of the GMC component, you might realize that past a certain distance between the player and target, the rewinding will no longer occur. This happens due to the `Server Pawn Rollback Radius` property (in the Advanced settings of the GMC) being too small. Hence, past this radius, the server won't rewind the potential targets. In this demo, we set the value of `Server Pawn Rollback Radius` to the `Biped`'s `Net Cull Distance`.
 
 # Side notes
 Note that a character that does not move for 5 seconds will start to simulate movement.
