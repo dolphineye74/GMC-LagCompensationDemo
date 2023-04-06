@@ -2,6 +2,8 @@
 
 Lag compensation demo with a minimal "shooter" example using the General Movement Component (GMC) plugin for Unreal Engine 5.
 
+![Demo](Demo.jpg)
+
 # How does it work
 
 The `Fire` input is detected in themovement component.
